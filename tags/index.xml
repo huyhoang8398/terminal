@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Do Hoang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Oct 2019 00:35:20 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 01 Dec 2019 14:28:16 +0700</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,27 @@
     <item>
       <title>blog</title>
       <link>/tags/blog/</link>
-      <pubDate>Wed, 09 Oct 2019 00:35:20 +0700</pubDate>
+      <pubDate>Sun, 01 Dec 2019 14:28:16 +0700</pubDate>
       
       <guid>/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>/tags/git/</link>
+      <pubDate>Sun, 01 Dec 2019 14:28:16 +0700</pubDate>
+      
+      <guid>/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>trick</title>
+      <link>/tags/trick/</link>
+      <pubDate>Sun, 01 Dec 2019 14:28:16 +0700</pubDate>
+      
+      <guid>/tags/trick/</guid>
       <description></description>
     </item>
     
