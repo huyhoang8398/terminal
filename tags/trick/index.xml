@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>trick on Do Hoang</title>
-    <link>https://dohoang.me/about/tags/trick/</link>
+    <link>/tags/trick/</link>
     <description>Recent content in trick on Do Hoang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 01 Dec 2019 14:28:16 +0700</lastBuildDate>
     
-	<atom:link href="https://dohoang.me/about/tags/trick/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/trick/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Git Revert to a Good Commit</title>
-      <link>https://dohoang.me/about/posts/git-revert-to-a-good-commit/</link>
+      <link>/posts/git-revert-to-a-good-commit/</link>
       <pubDate>Sun, 01 Dec 2019 14:28:16 +0700</pubDate>
       
-      <guid>https://dohoang.me/about/posts/git-revert-to-a-good-commit/</guid>
+      <guid>/posts/git-revert-to-a-good-commit/</guid>
       <description>Today my co-worker asked me how to revert to an old and good commit on master ( after you accidentally merged dev branch to master ). There are many ways to do that, for example we can use reset to discard all wrong commit to revert back, like undo when writing text. You can find others way onthis topic on Stack Overflow But the problem is too many options, we dont know which one is good, or even dont need to understand - it just works.</description>
     </item>
     
