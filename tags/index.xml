@@ -2,93 +2,93 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Do Hoang</title>
-    <link>/tags/</link>
+    <link>https://dohoang.me/about/tags/</link>
     <description>Recent content in Tags on Do Hoang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 02 Dec 2019 19:57:14 +0700</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dohoang.me/about/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>arduino</title>
-      <link>/tags/arduino/</link>
+      <link>https://dohoang.me/about/tags/arduino/</link>
       <pubDate>Mon, 02 Dec 2019 19:57:14 +0700</pubDate>
       
-      <guid>/tags/arduino/</guid>
+      <guid>https://dohoang.me/about/tags/arduino/</guid>
       <description></description>
     </item>
     
     <item>
       <title>blog</title>
-      <link>/tags/blog/</link>
+      <link>https://dohoang.me/about/tags/blog/</link>
       <pubDate>Mon, 02 Dec 2019 19:57:14 +0700</pubDate>
       
-      <guid>/tags/blog/</guid>
+      <guid>https://dohoang.me/about/tags/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>iot</title>
-      <link>/tags/iot/</link>
+      <link>https://dohoang.me/about/tags/iot/</link>
       <pubDate>Mon, 02 Dec 2019 19:57:14 +0700</pubDate>
       
-      <guid>/tags/iot/</guid>
+      <guid>https://dohoang.me/about/tags/iot/</guid>
       <description></description>
     </item>
     
     <item>
       <title>PharoThings</title>
-      <link>/tags/pharothings/</link>
+      <link>https://dohoang.me/about/tags/pharothings/</link>
       <pubDate>Mon, 02 Dec 2019 19:57:14 +0700</pubDate>
       
-      <guid>/tags/pharothings/</guid>
+      <guid>https://dohoang.me/about/tags/pharothings/</guid>
       <description></description>
     </item>
     
     <item>
       <title>smalltalk</title>
-      <link>/tags/smalltalk/</link>
+      <link>https://dohoang.me/about/tags/smalltalk/</link>
       <pubDate>Mon, 02 Dec 2019 19:57:14 +0700</pubDate>
       
-      <guid>/tags/smalltalk/</guid>
+      <guid>https://dohoang.me/about/tags/smalltalk/</guid>
       <description></description>
     </item>
     
     <item>
       <title>git</title>
-      <link>/tags/git/</link>
+      <link>https://dohoang.me/about/tags/git/</link>
       <pubDate>Sun, 01 Dec 2019 14:28:16 +0700</pubDate>
       
-      <guid>/tags/git/</guid>
+      <guid>https://dohoang.me/about/tags/git/</guid>
       <description></description>
     </item>
     
     <item>
       <title>trick</title>
-      <link>/tags/trick/</link>
+      <link>https://dohoang.me/about/tags/trick/</link>
       <pubDate>Sun, 01 Dec 2019 14:28:16 +0700</pubDate>
       
-      <guid>/tags/trick/</guid>
+      <guid>https://dohoang.me/about/tags/trick/</guid>
       <description></description>
     </item>
     
     <item>
       <title>pandoc</title>
-      <link>/tags/pandoc/</link>
+      <link>https://dohoang.me/about/tags/pandoc/</link>
       <pubDate>Wed, 09 Oct 2019 00:35:20 +0700</pubDate>
       
-      <guid>/tags/pandoc/</guid>
+      <guid>https://dohoang.me/about/tags/pandoc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>presentation</title>
-      <link>/tags/presentation/</link>
+      <link>https://dohoang.me/about/tags/presentation/</link>
       <pubDate>Wed, 09 Oct 2019 00:35:20 +0700</pubDate>
       
-      <guid>/tags/presentation/</guid>
+      <guid>https://dohoang.me/about/tags/presentation/</guid>
       <description></description>
     </item>
     

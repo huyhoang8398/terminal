@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Do Hoang</title>
-    <link>/posts/</link>
+    <link>https://dohoang.me/about/posts/</link>
     <description>Recent content in Posts on Do Hoang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 02 Dec 2019 19:57:14 +0700</lastBuildDate>
     
-	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dohoang.me/about/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Using Arduino With PharoThings/Smalltalk</title>
-      <link>/posts/using-arduino-with-pharo/</link>
+      <link>https://dohoang.me/about/posts/using-arduino-with-pharo/</link>
       <pubDate>Mon, 02 Dec 2019 19:57:14 +0700</pubDate>
       
-      <guid>/posts/using-arduino-with-pharo/</guid>
+      <guid>https://dohoang.me/about/posts/using-arduino-with-pharo/</guid>
       <description>Firmata Firmata is a generic protocol for communicating with microcontrollers from software on a host computer. It is intended to work with any host computer software package. Right now there is a matching object in a number of languages. It is easy to add objects for other software to use this protocol. Basically, this firmware establishes a protocol for talking to the Arduino from the host software. The aim is to allow people to completely control the Arduino from software on the host computer.</description>
     </item>
     
     <item>
       <title>Git Revert to a Good Commit</title>
-      <link>/posts/git-revert-to-a-good-commit/</link>
+      <link>https://dohoang.me/about/posts/git-revert-to-a-good-commit/</link>
       <pubDate>Sun, 01 Dec 2019 14:28:16 +0700</pubDate>
       
-      <guid>/posts/git-revert-to-a-good-commit/</guid>
+      <guid>https://dohoang.me/about/posts/git-revert-to-a-good-commit/</guid>
       <description>Today my co-worker asked me how to revert to an old and good commit on master ( after you accidentally merged dev branch to master ). There are many ways to do that, for example we can use reset to discard all wrong commit to revert back, like undo when writing text. You can find others way onthis topic on Stack Overflow But the problem is too many options, we dont know which one is good, or even dont need to understand - it just works.</description>
     </item>
     
     <item>
       <title>How I escaped from Microsoft Office tools as a Computer Science student</title>
-      <link>/posts/pandoc/</link>
+      <link>https://dohoang.me/about/posts/pandoc/</link>
       <pubDate>Wed, 09 Oct 2019 00:35:20 +0700</pubDate>
       
-      <guid>/posts/pandoc/</guid>
+      <guid>https://dohoang.me/about/posts/pandoc/</guid>
       <description>Motivation I have used beamer quite a lot to prepare slides for both research and class presentations. I have started to use LaTeX to content in beamer presentation for two years. Sometimes I was concerned about the high ratio of markup to content in beamer presentations. I used to type thousands lines of code just to create a presentation slide which was tiring and time consuming. Thus, I did some research and found a combination of pandoc, markdown, and LaTeX to simplify my process.</description>
     </item>
     
