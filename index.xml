@@ -39,12 +39,12 @@
     </item>
     
     <item>
-      <title>About</title>
+      <title></title>
       <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description> &amp;ldquo;Hello, friend?&amp;rdquo; That&#39;s lame.
+      <description>&amp;ldquo;Hello, friend?&amp;rdquo; That&#39;s lame.
 Maybe I should give you a name&amp;hellip;
 But that&#39;s a slippery slope.
 You&#39;re only in my head.
@@ -53,7 +53,9 @@ Shit.
 It&#39;s actually happened.
 I&#39;m talking to an imaginary person.
 — Mr. Robot S01E01
- </description>
+ #about An inquisitive explorer of both the digital and physical worlds.
+I am blessed to receive my education from:
+ University of Science and Technology of Hanoi (USTH)</description>
     </item>
     
     <item>
