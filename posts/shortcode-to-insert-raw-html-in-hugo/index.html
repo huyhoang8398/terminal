@@ -6,7 +6,7 @@
     
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-<meta name="description" content="Hugo is very good framework of creating a website by using markdown. But there are times when Markdown falls short. Often, content authors are forced to add raw HTML (e.g., video ) to Markdown content.
+<meta name="description" content="Hugo is very good framework of creating a website by using markdown. But there are times when Markdown falls short. Often, content authors are forced to add raw HTML (e.g., video &amp;lt;iframes&amp;gt;) to Markdown content.
 But Hugo does not seem to have a good way to let you do this in a markdown file. They created shortcodes to circumvent these limitations.
 A shortcode is a simple snippet inside a content file that Hugo will render using a predefined template."/>
 <meta name="keywords" content=""/>
@@ -154,21 +154,20 @@ A shortcode is a simple snippet inside a content file that Hugo will render usin
 
     <div class="post-content">
       <p>Hugo is very good framework of creating a website by using markdown.
-But there are times when Markdown falls short. Often, content authors are forced to add raw HTML (e.g., video <!-- raw HTML omitted -->) to Markdown content.</p>
+But there are times when Markdown falls short. Often, content authors are forced to add raw HTML (e.g., video <code>&lt;iframes&gt;</code>) to Markdown content.</p>
 <p>But Hugo does not seem to have a good way to let you do this in a markdown file.
 They created shortcodes to circumvent these limitations.</p>
 <p>A shortcode is a simple snippet inside a content file that Hugo will render using a predefined template. Note that shortcodes will not work in template files. If you need the type of drop-in functionality that shortcodes provide but in a template, you most likely want a partial template instead.</p>
 <p>Here is how to create your own one-line custom shortcode to make that possible.
-Add a shortcode template to your site, in layouts/shortcodes/rawhtml.html, with the content:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#75715e">&lt;!--</span> <span style="color:#a6e22e">raw</span> <span style="color:#a6e22e">html</span> <span style="color:#f92672">--</span><span style="color:#f92672">&gt;</span>
-{{.<span style="color:#a6e22e">Inner</span>}}
-</code></pre></div><p>This template tells Hugo to simply render the inner content passed to your shortcode directly into the HTML of your site.
+Add a shortcode template to your site, in <code>layouts/shortcodes/rawhtml.html</code>, with the content:</p>
+<pre><code>&lt;!-- raw html --&gt;
+{{.Inner}}
+</code></pre><p>This template tells Hugo to simply render the inner content passed to your shortcode directly into the HTML of your site.
 You can then use this shortcode in your markdown content, like so:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">
-
-  <iframe src="https://3dwarehouse.sketchup.com/embed/530678b3-058e-4d3c-a09d-a2a6294247da" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="580" height="326" allowfullscreen></iframe>
-
-
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">{{&lt; <span style="color:#f92672">rawhtml</span> &gt;}}
+  &lt;<span style="color:#f92672">iframe</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://3dwarehouse.sketchup.com/embed/530678b3-058e-4d3c-a09d-a2a6294247da&#34;</span> <span style="color:#a6e22e">frameborder</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;0&#34;</span> <span style="color:#a6e22e">scrolling</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;no&#34;</span> <span style="color:#a6e22e">marginheight</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;0&#34;</span> <span style="color:#a6e22e">marginwidth</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;0&#34;</span> <span style="color:#a6e22e">width</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;580&#34;</span> <span style="color:#a6e22e">height</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;326&#34;</span> <span style="color:#a6e22e">allowfullscreen</span>&gt;&lt;/<span style="color:#f92672">iframe</span>&gt;
+  &lt;<span style="color:#f92672">p</span>&gt; thanks to @kn &lt;/<span style="color:#f92672">p</span>&gt;
+{{&lt; /<span style="color:#f92672">rawhtml</span> &gt;}}
 </code></pre></div>
     </div>
     
