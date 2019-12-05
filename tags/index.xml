@@ -6,10 +6,55 @@
     <description>Recent content in Tags on Do Hoang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Dec 2019 19:57:14 +0700</lastBuildDate>
+    <lastBuildDate>Thu, 05 Dec 2019 23:31:46 +0700</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>blog</title>
+      <link>/tags/blog/</link>
+      <pubDate>Thu, 05 Dec 2019 23:31:46 +0700</pubDate>
+      
+      <guid>/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>/tags/hugo/</link>
+      <pubDate>Thu, 05 Dec 2019 23:31:46 +0700</pubDate>
+      
+      <guid>/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>markdown</title>
+      <link>/tags/markdown/</link>
+      <pubDate>Thu, 05 Dec 2019 23:31:46 +0700</pubDate>
+      
+      <guid>/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>shortcode</title>
+      <link>/tags/shortcode/</link>
+      <pubDate>Thu, 05 Dec 2019 23:31:46 +0700</pubDate>
+      
+      <guid>/tags/shortcode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tricks</title>
+      <link>/tags/tricks/</link>
+      <pubDate>Thu, 05 Dec 2019 23:31:46 +0700</pubDate>
+      
+      <guid>/tags/tricks/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>arduino</title>
@@ -17,15 +62,6 @@
       <pubDate>Mon, 02 Dec 2019 19:57:14 +0700</pubDate>
       
       <guid>/tags/arduino/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>blog</title>
-      <link>/tags/blog/</link>
-      <pubDate>Mon, 02 Dec 2019 19:57:14 +0700</pubDate>
-      
-      <guid>/tags/blog/</guid>
       <description></description>
     </item>
     

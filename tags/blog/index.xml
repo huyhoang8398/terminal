@@ -6,10 +6,21 @@
     <description>Recent content in blog on Do Hoang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Dec 2019 19:57:14 +0700</lastBuildDate>
+    <lastBuildDate>Thu, 05 Dec 2019 23:31:46 +0700</lastBuildDate>
     
 	<atom:link href="/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Shortcode to Insert Raw HTML in Hugo</title>
+      <link>/posts/shortcode-to-insert-raw-html-in-hugo/</link>
+      <pubDate>Thu, 05 Dec 2019 23:31:46 +0700</pubDate>
+      
+      <guid>/posts/shortcode-to-insert-raw-html-in-hugo/</guid>
+      <description>Hugo is very good framework of creating a website by using markdown. But there are times when Markdown falls short. Often, content authors are forced to add raw HTML (e.g., video ) to Markdown content.
+But Hugo does not seem to have a good way to let you do this in a markdown file. They created shortcodes to circumvent these limitations.
+A shortcode is a simple snippet inside a content file that Hugo will render using a predefined template.</description>
+    </item>
     
     <item>
       <title>Using Arduino With PharoThings/Smalltalk</title>
