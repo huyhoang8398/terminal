@@ -6,10 +6,46 @@
     <description>Recent content in Tags on Do Hoang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Dec 2019 23:31:46 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jan 2020 19:45:40 +0700</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>archlinux</title>
+      <link>/tags/archlinux/</link>
+      <pubDate>Mon, 13 Jan 2020 19:45:40 +0700</pubDate>
+      
+      <guid>/tags/archlinux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dell</title>
+      <link>/tags/dell/</link>
+      <pubDate>Mon, 13 Jan 2020 19:45:40 +0700</pubDate>
+      
+      <guid>/tags/dell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>/tags/linux/</link>
+      <pubDate>Mon, 13 Jan 2020 19:45:40 +0700</pubDate>
+      
+      <guid>/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>xps</title>
+      <link>/tags/xps/</link>
+      <pubDate>Mon, 13 Jan 2020 19:45:40 +0700</pubDate>
+      
+      <guid>/tags/xps/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>blog</title>

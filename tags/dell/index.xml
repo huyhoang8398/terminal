@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dell on Do Hoang</title>
+    <link>/tags/dell/</link>
+    <description>Recent content in dell on Do Hoang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 Jan 2020 19:45:40 +0700</lastBuildDate>
+    
+	<atom:link href="/tags/dell/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Why I made the switch from Mac to Linux</title>
+      <link>/posts/dellxps-arch/</link>
+      <pubDate>Mon, 13 Jan 2020 19:45:40 +0700</pubDate>
+      
+      <guid>/posts/dellxps-arch/</guid>
+      <description>Introduction I have been a huge Mac fan and power user since I started in IT in 2015. But a few months ago—for several reasons — I made the commitment to shift to Linux as my daily driver. This isn&#39;t my first attempt at fully adopting Linux, but I&#39;m finding it easier than ever. Here is what inspired me to switch.
+Why Im falling in love with macOS First of all, in 2015 I had my very first macOS laptop which is an Macbook air 13 inch model.</description>
+    </item>
+    
+  </channel>
+</rss>
