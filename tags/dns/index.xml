@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dns on Do Hoang</title>
+    <link>/tags/dns/</link>
+    <description>Recent content in dns on Do Hoang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Jan 2020 21:39:45 +0700</lastBuildDate>
+    
+	<atom:link href="/tags/dns/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Quick terminal-based DNS switching</title>
+      <link>/posts/dns-command/</link>
+      <pubDate>Tue, 21 Jan 2020 21:39:45 +0700</pubDate>
+      
+      <guid>/posts/dns-command/</guid>
+      <description>This post was originally published on thecodecousins by StanleyNguyen. I add the Linux section for more details.
+Motivation Most of us, at some point of our lives, have used at least a custom DNS servers configurations for our computers. Be it for avoiding censorship, faster browsing, security, or bypassing content restriction, we&#39;ve all tried setting our DNS servers to some public DNS servers like one from Google (remember 8.8.8.8 and 8.</description>
+    </item>
+    
+  </channel>
+</rss>
