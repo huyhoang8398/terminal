@@ -6,10 +6,46 @@
     <description>Recent content in Tags on Do Hoang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Jan 2020 21:39:45 +0700</lastBuildDate>
+    <lastBuildDate>Sat, 21 Mar 2020 17:59:52 +0700</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>blog</title>
+      <link>/tags/blog/</link>
+      <pubDate>Sat, 21 Mar 2020 17:59:52 +0700</pubDate>
+      
+      <guid>/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>graphic</title>
+      <link>/tags/graphic/</link>
+      <pubDate>Sat, 21 Mar 2020 17:59:52 +0700</pubDate>
+      
+      <guid>/tags/graphic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Intel</title>
+      <link>/tags/intel/</link>
+      <pubDate>Sat, 21 Mar 2020 17:59:52 +0700</pubDate>
+      
+      <guid>/tags/intel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>/tags/linux/</link>
+      <pubDate>Sat, 21 Mar 2020 17:59:52 +0700</pubDate>
+      
+      <guid>/tags/linux/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>dns</title>
@@ -66,29 +102,11 @@
     </item>
     
     <item>
-      <title>linux</title>
-      <link>/tags/linux/</link>
-      <pubDate>Mon, 13 Jan 2020 19:45:40 +0700</pubDate>
-      
-      <guid>/tags/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>xps</title>
       <link>/tags/xps/</link>
       <pubDate>Mon, 13 Jan 2020 19:45:40 +0700</pubDate>
       
       <guid>/tags/xps/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>blog</title>
-      <link>/tags/blog/</link>
-      <pubDate>Thu, 05 Dec 2019 23:31:46 +0700</pubDate>
-      
-      <guid>/tags/blog/</guid>
       <description></description>
     </item>
     
@@ -116,6 +134,15 @@
       <pubDate>Thu, 05 Dec 2019 23:31:46 +0700</pubDate>
       
       <guid>/tags/shortcode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>trick</title>
+      <link>/tags/trick/</link>
+      <pubDate>Thu, 05 Dec 2019 23:31:46 +0700</pubDate>
+      
+      <guid>/tags/trick/</guid>
       <description></description>
     </item>
     
@@ -170,15 +197,6 @@
       <pubDate>Sun, 01 Dec 2019 14:28:16 +0700</pubDate>
       
       <guid>/tags/git/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>trick</title>
-      <link>/tags/trick/</link>
-      <pubDate>Sun, 01 Dec 2019 14:28:16 +0700</pubDate>
-      
-      <guid>/tags/trick/</guid>
       <description></description>
     </item>
     

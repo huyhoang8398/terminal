@@ -208,7 +208,7 @@ I strongly recommend not just installing the TeX compiler, but <em>all</em> TeX 
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">brew cask install mactex
 </code></pre></div><p>After installing LaTeX, the next step is to get Pandoc - a universal document converter.</p>
 <p><strong>On GNU/Linux</strong></p>
-<p>For each linux distribution, you might have a different pandoc package's name in your package manager.
+<p>For each linux distribution, you might have a different pandoc package&rsquo;s name in your package manager.
 For example in ArchLinux, we can install pandoc with:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo pacman -S pandoc
 </code></pre></div><p>But if you want to get the latest version ( you might want to check whether the pandoc version in your package manager is not outdated ), we can get the binary package for amd64 architecture on the <em><a href="https://github.com/jgm/pandoc/releases/tag/2.7.3">download page</a></em>.</p>
@@ -224,7 +224,7 @@ For example in ArchLinux, we can install pandoc with:</p>
 <p>We are computer scientists 😍😍😍, as I mentioned before, making an academic presentation without having to write LaTeX ( with tons of syntax,&hellip; ) is our main goal.
 Pandoc provides us a way to convert between numerous markups and word processing formats, including, but not limited to, various flavors of Markdown, Latex, HTML.</p>
 <p>To create a slide shows with Pandoc is quite simple because the basic syntax is Markdown which is a familiar language with all developers or computer scientist.</p>
-<p>Let's create some slide with Pandoc !!!  🎉🎉🎉</p>
+<p>Let&rsquo;s create some slide with Pandoc !!!  🎉🎉🎉</p>
 <p>Create a <code>main.md</code> file that contains:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown"># Section heading 1 slide
 <span style="color:#75715e">## Slide 1 of Section 1 
@@ -278,11 +278,11 @@ And Level 2 headings represented a new slide with the title name. ( line precede
 </code></pre></div><p>→ Markdown is muchhhhhhhhh shorter line of code comparing to LaTeX with the same content.</p>
 <h2 id="advanced-configuration">Advanced configuration</h2>
 <h4 id="yaml">YAML</h4>
-<p>You might want a slide containing a Beamer's theme, an author name, a presentation name,&hellip; -  all of LaTex beamer's feature but written in markdown.
+<p>You might want a slide containing a Beamer&rsquo;s theme, an author name, a presentation name,&hellip; -  all of LaTex beamer&rsquo;s feature but written in markdown.
 To deal with that, we can add some YAML configuration at the beginning of the markdown file.<br>
 Fill in all the necessary fields:</p>
 <ul>
-<li><code>title</code>: the presentation's name.</li>
+<li><code>title</code>: the presentation&rsquo;s name.</li>
 <li><code>author</code>: your name.</li>
 <li><code>date</code></li>
 <li><code>institute</code></li>
@@ -293,17 +293,17 @@ Fill in all the necessary fields:</p>
 </ul>
 <p><strong>YAML example</strong></p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-YAML" data-lang="YAML">---
-title: <span style="color:#e6db74">&#34;Pandoc Tutorial&#34;</span>
-author: Do Duy Huy Hoang 
-date: \today{}
-institute: 
+<span style="color:#66d9ef">title</span>: <span style="color:#e6db74">&#34;Pandoc Tutorial&#34;</span>
+<span style="color:#66d9ef">author</span>: Do Duy Huy Hoang 
+<span style="color:#66d9ef">date</span>: \today{}
+<span style="color:#66d9ef">institute</span>: 
 - The Code Cousins
-theme:
+<span style="color:#66d9ef">theme</span>:
 - Ilmenau
-colortheme:
+<span style="color:#66d9ef">colortheme</span>:
 - beaver 
-mainfont: <span style="color:#e6db74">&#34;SourceSansPro-Regular&#34;</span>
-toc:
+<span style="color:#66d9ef">mainfont</span>: <span style="color:#e6db74">&#34;SourceSansPro-Regular&#34;</span>
+<span style="color:#66d9ef">toc</span>:
 - <span style="color:#66d9ef">true</span>
 ---
 </code></pre></div><p><strong>Result</strong></p>
@@ -352,7 +352,7 @@ To create a slide that has columns, I recommend to use raw LaTeX code as the fol
 
 <span style="color:#66d9ef">\End</span>{columns}
 </code></pre></div><p>But you need to add this code to your YAML file ( I will explain what is this code in the next section)</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-YAML" data-lang="YAML">header-includes:
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-YAML" data-lang="YAML"><span style="color:#66d9ef">header-includes</span>:
 - \newcommand{\hideFromPandoc}[<span style="color:#ae81ff">1</span>]{<span style="color:#75715e">#1}</span>
 - \hideFromPandoc{
     \let\Begin\begin
@@ -365,7 +365,7 @@ To create a slide that has columns, I recommend to use raw LaTeX code as the fol
 <p>Pandoc lets user include a custom preamble in the generated output.</p>
 <p>If you have to use some packages in LaTeX ( not so much ), you can include it in the YAML header inside the <code>header-includes:</code> tag.<br>
 For example I want to use package <code>multicol</code> in LaTeX, my header should look like:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-YAML" data-lang="YAML">header-includes:
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-YAML" data-lang="YAML"><span style="color:#66d9ef">header-includes</span>:
 - \usepackage{multicol}
 </code></pre></div><p>These lines will be included before the document begin in LaTeX file.</p>
 <p>Preamble in Pandoc gives you more features than just to import some packages.

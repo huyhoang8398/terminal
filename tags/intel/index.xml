@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>linux on Do Hoang</title>
-    <link>/tags/linux/</link>
-    <description>Recent content in linux on Do Hoang</description>
+    <title>Intel on Do Hoang</title>
+    <link>/tags/intel/</link>
+    <description>Recent content in Intel on Do Hoang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 21 Mar 2020 17:59:52 +0700</lastBuildDate>
     
-	<atom:link href="/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/intel/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,16 +19,6 @@
       <guid>/posts/xf86-video-intel/</guid>
       <description>Why not XF86-Video-Intel ? It is a DDX driver (which provides 2D acceleration in Xorg) but It is not recommended to install nowaday. Because this package is no longer needed and also causes screen tearing. And also the generic xf86-video-modesetting DDX driver included in xorg-server seems to be better than most vendor specific xf86-video- drivers.
 Some (Debian &amp;amp; Ubuntu, Fedora, KDE) recommend not installing the xf86-video-intel driver, and instead falling back on the modesetting driver for Gen4 and newer GPUs (GMA 3000 from 2006 and newer).</description>
-    </item>
-    
-    <item>
-      <title>Why I made the switch from Mac to Linux</title>
-      <link>/posts/dellxps-arch/</link>
-      <pubDate>Mon, 13 Jan 2020 19:45:40 +0700</pubDate>
-      
-      <guid>/posts/dellxps-arch/</guid>
-      <description>Introduction I have been a huge Mac fan and power user since I started in IT in 2015. But a few months ago—for several reasons — I made the commitment to shift to Linux as my daily driver. This isn&amp;rsquo;t my first attempt at fully adopting Linux, but I&amp;rsquo;m finding it easier than ever. Here is what inspired me to switch.
-Why Im falling in love with macOS First of all, in 2015 I had my very first macOS laptop which is an Macbook air 13 inch model.</description>
     </item>
     
   </channel>

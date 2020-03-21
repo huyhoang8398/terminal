@@ -6,10 +6,20 @@
     <description>Recent content on Do Hoang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Jan 2020 21:39:45 +0700</lastBuildDate>
+    <lastBuildDate>Sat, 21 Mar 2020 17:59:52 +0700</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Xf86 Video Intel</title>
+      <link>/posts/xf86-video-intel/</link>
+      <pubDate>Sat, 21 Mar 2020 17:59:52 +0700</pubDate>
+      
+      <guid>/posts/xf86-video-intel/</guid>
+      <description>Why not XF86-Video-Intel ? It is a DDX driver (which provides 2D acceleration in Xorg) but It is not recommended to install nowaday. Because this package is no longer needed and also causes screen tearing. And also the generic xf86-video-modesetting DDX driver included in xorg-server seems to be better than most vendor specific xf86-video- drivers.
+Some (Debian &amp;amp; Ubuntu, Fedora, KDE) recommend not installing the xf86-video-intel driver, and instead falling back on the modesetting driver for Gen4 and newer GPUs (GMA 3000 from 2006 and newer).</description>
+    </item>
     
     <item>
       <title>Quick terminal-based DNS switching</title>
@@ -18,7 +28,7 @@
       
       <guid>/posts/dns-command/</guid>
       <description>This post was originally published on thecodecousins by StanleyNguyen. I add the Linux section for more details.
-Motivation Most of us, at some point of our lives, have used at least a custom DNS servers configurations for our computers. Be it for avoiding censorship, faster browsing, security, or bypassing content restriction, we&#39;ve all tried setting our DNS servers to some public DNS servers like one from Google (remember 8.8.8.8 and 8.</description>
+Motivation Most of us, at some point of our lives, have used at least a custom DNS servers configurations for our computers. Be it for avoiding censorship, faster browsing, security, or bypassing content restriction, we&amp;rsquo;ve all tried setting our DNS servers to some public DNS servers like one from Google (remember 8.8.8.8 and 8.</description>
     </item>
     
     <item>
@@ -27,7 +37,7 @@ Motivation Most of us, at some point of our lives, have used at least a custom D
       <pubDate>Mon, 13 Jan 2020 19:45:40 +0700</pubDate>
       
       <guid>/posts/dellxps-arch/</guid>
-      <description>Introduction I have been a huge Mac fan and power user since I started in IT in 2015. But a few months ago—for several reasons — I made the commitment to shift to Linux as my daily driver. This isn&#39;t my first attempt at fully adopting Linux, but I&#39;m finding it easier than ever. Here is what inspired me to switch.
+      <description>Introduction I have been a huge Mac fan and power user since I started in IT in 2015. But a few months ago—for several reasons — I made the commitment to shift to Linux as my daily driver. This isn&amp;rsquo;t my first attempt at fully adopting Linux, but I&amp;rsquo;m finding it easier than ever. Here is what inspired me to switch.
 Why Im falling in love with macOS First of all, in 2015 I had my very first macOS laptop which is an Macbook air 13 inch model.</description>
     </item>
     
@@ -75,14 +85,14 @@ A shortcode is a simple snippet inside a content file that Hugo will render usin
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description>&amp;ldquo;Hello, friend?&amp;rdquo; That&#39;s lame.
+      <description>&amp;ldquo;Hello, friend?&amp;rdquo; That&amp;rsquo;s lame.
 Maybe I should give you a name&amp;hellip;
-But that&#39;s a slippery slope.
-You&#39;re only in my head.
+But that&amp;rsquo;s a slippery slope.
+You&amp;rsquo;re only in my head.
 We have to remember that&amp;hellip;
 Shit.
-It&#39;s actually happened.
-I&#39;m talking to an imaginary person.
+It&amp;rsquo;s actually happened.
+I&amp;rsquo;m talking to an imaginary person.
 — Mr. Robot S01E01
  #about An inquisitive explorer of both the digital and physical worlds.
 I am blessed to receive my education from:
