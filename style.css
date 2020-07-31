@@ -46,10 +46,10 @@
   text-decoration: none;
 }
 
-footer {
+/* footer {
   margin: auto;
   text-align: center;
-}
+} */
 
 .fake {
     -webkit-transform: scale(0.5); /* Saf3.1+, Chrome */
