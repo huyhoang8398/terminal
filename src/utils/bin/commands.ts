@@ -30,12 +30,19 @@ export const repo = async (args: string[]): Promise<string> => {
 
 // About
 export const about = async (args: string[]): Promise<string> => {
-  return `Hi, I am ${config.name}. 
-Welcome to my website!
-More about me:
-'sumfetch' - short summary.
-'resume' - my latest resume.
-'readme' - my github readme.`;
+  return `Hi, I am <b>${config.name}</b>. 
+- Welcome to my website!
+- I'm a Cloud / DevOps Engineer
+🚀 Technical stack
+  * <u>Programming Languages</u>: Python, C, Go, Bash
+  * <u>Industry Knowledge</u>: Linux System, Virtual Machine, Container, Cloud, Networking, Security, Cryptography
+  * <u>DevOps Stack</u>: Github/Gitlab/Jenkins CI/CD tool, Promotheus & Grafana, AWS, Docker, k8s, Terraform
+  * <u>Database</u>: MariaDB, MySQL, MongoDB
+  * <u>Developer Tools</u>: Git, Docker, KVM, Xen, Linux, Vim
+- More about me:
+  'sumfetch' - short summary.
+  'resume' - my latest resume.
+  'readme' - my github readme.`;
 };
 
 export const resume = async (args: string[]): Promise<string> => {
