@@ -32,13 +32,21 @@ export const repo = async (args: string[]): Promise<string> => {
 export const about = async (args: string[]): Promise<string> => {
   return `Hi, I am <b>${config.name}</b>. 
 - Welcome to my website!
+
 - I'm a Cloud / DevOps Engineer
+
 🚀 Technical stack
-  * <u>Programming Languages</u>: Python, C, Go, Bash
-  * <u>Industry Knowledge</u>: Linux System, Virtual Machine, Container, Cloud, Networking, Security, Cryptography
-  * <u>DevOps Stack</u>: Github/Gitlab/Jenkins CI/CD tool, Promotheus & Grafana, AWS, Docker, k8s, Terraform
-  * <u>Database</u>: MariaDB, MySQL, MongoDB
-  * <u>Developer Tools</u>: Git, Docker, KVM, Xen, Linux, Vim
+
+  * <u>Programming Languages</u>: Python , C, Go , Bash 
+
+  * <u>Industry Knowledge</u>: Linux System , Virtual Machine, Container , Cloud , Networking , Security 旅, Cryptography
+  
+  * <u>DevOps Stack</u>: Github/Gitlab/Jenkins CI/CD tool , Promotheus & Grafana, AWS , Docker , k8s, Terraform
+  
+  * <u>Database</u>: MariaDB, MySQL , MongoDB 
+
+  * <u>Developer Tools</u>: Git , Docker , KVM, Xen, Linux , Vim 
+
 - More about me:
   'sumfetch' - short summary.
   'resume' - my latest resume.
