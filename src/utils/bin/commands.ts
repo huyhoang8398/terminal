@@ -75,6 +75,12 @@ export const linkedin = async (args: string[]): Promise<string> => {
   return 'Opening linkedin...';
 };
 
+export const blog = async (args: string[]): Promise<string> => {
+  window.open(`https://huyhoang8398.github.io/${config.social.blog}/`);
+
+  return 'Opening linkedin...';
+};
+
 // Search
 export const google = async (args: string[]): Promise<string> => {
   window.open(`https://google.com/search?q=${args.join(' ')}`);
