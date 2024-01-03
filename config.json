@@ -16,7 +16,7 @@
   "colors": {
     "moonfly": {
       "background": "#080808",
-      "foreground": "#bdbdbd"
+      "foreground": "#bdbdbd",
       "yellow": "#e3c78a",
       "green": "#8cc85f",
       "gray": "#323437",
