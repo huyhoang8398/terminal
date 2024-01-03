@@ -14,7 +14,7 @@
   "repo": "https://github.com/huyhoang8398/LiveTerm",
   "resume_url": "https://huyhoang8398.github.io/resume/",
   "colors": {
-    "moonfly": {
+    "dark": {
       "background": "#080808",
       "foreground": "#bdbdbd",
       "yellow": "#e3c78a",
