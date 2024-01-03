@@ -15,7 +15,16 @@
   "resume_url": "https://huyhoang8398.github.io/resume/",
   "colors": {
     "dark": {
-      "background": "#E3C78A",
+      "background": "#080808",
+      "foreground": "#BDBDBD",
+      "yellow": "#E3C78A",
+      "green": "#8CC85F",
+      "gray": "#323437",
+      "blue": "#80A0FF",
+      "red": "#FF5454"
+    },
+    "light": {
+      "background": "#080808",
       "foreground": "#BDBDBD",
       "yellow": "#E3C78A",
       "green": "#8CC85F",
